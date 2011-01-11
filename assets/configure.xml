@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<debug>0</debug>
+    <Settings>
+		<fadein>0.5</fadein>
+    	<fadeout>1</fadeout>
+		<sound>
+			<open>assets/sound/open.mp3</open>
+		</sound>
+    </Settings>
+	<Canvas>
+		<width>1360</width>
+		<height>768</height>
+	</Canvas>
+	<Camera>
+		<width>1280</width>
+		<height>720</height>
+	</Camera>
+	<Track>
+		<width>424</width>
+		<height>240</height>
+	</Track>
+	<ObjectNumber>6</ObjectNumber>
+	<Object id="1">
+		<pattern>brain.pat</pattern>
+		<model>
+			<name>assets/3D Models/bio_hand/bio_hand.dae</name>
+			<scale>10</scale>
+			<x>0</x>
+			<y>0</y>
+			<z>0</z>
+			<rotationX>90</rotationX>
+			<rotationY>0</rotationY>
+			<rotationZ>0</rotationZ>
+		</model>
+		<image>01-04.png</image>
+	</Object>
+	<Object id="2">
+		<pattern>eye.pat</pattern>
+		<model>
+			<name>assets/3D Models/bio_eye/bio_eye.dae</name>
+			<scale>10</scale>
+			<x>0</x>
+			<y>0</y>
+			<z>0</z>
+			<rotationX>90</rotationX>
+			<rotationY>0</rotationY>
+			<rotationZ>0</rotationZ>
+		</model>
+		<image>02-04.png</image>
+	</Object>
+	<Object id="3">
+		<pattern>lung.pat</pattern>
+		<model>
+			<name>assets/3D Models/lung/lung.dae</name>
+			<scale>20</scale>
+			<x>0</x>
+			<y>0</y>
+			<z>-50</z>
+			<rotationX>90</rotationX>
+			<rotationY>0</rotationY>
+			<rotationZ>0</rotationZ>
+			</model>
+		<image>03-04.png</image>
+	</Object>
+	<Object id="4">
+		<pattern>heart.pat</pattern>
+		<model>
+			<name>assets/3D Models/bio_heart/bio_heart.dae</name>
+            <scale>10</scale>
+			<x>0</x>
+			<y>0</y>
+			<z>0</z>
+			<rotationX>90</rotationX>
+			<rotationY>0</rotationY>
+			<rotationZ>0</rotationZ>
+			</model>
+		<image>04-04.png</image>
+	</Object>
+	<Object id="5">
+		<pattern>bone.pat</pattern>
+		<model>
+			<name>assets/3D Models/bio_knee/bio_knee.dae</name>
+			<scale>10</scale>
+			<x>0</x>
+			<y>0</y>
+			<z>0</z>
+			<rotationX>90</rotationX>
+			<rotationY>0</rotationY>
+			<rotationZ>0</rotationZ>
+			</model>
+		<image>05-04.png</image>
+	</Object>
+	<Object id="6">
+		<pattern>ear.pat</pattern>
+		<model>
+			<name>assets/3D Models/bio_ear/bio_ear.dae</name>
+			<scale>5</scale>
+			<x>0</x>
+			<y>0</y>
+			<z>0</z>
+			<rotationX>90</rotationX>
+			<rotationY>0</rotationY>
+			<rotationZ>0</rotationZ>
+			</model>
+		<image>06-04.png</image>
+	</Object>
+</root>
+		
